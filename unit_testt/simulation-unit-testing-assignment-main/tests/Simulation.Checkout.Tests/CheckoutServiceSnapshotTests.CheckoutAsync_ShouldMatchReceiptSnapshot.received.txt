@@ -1,0 +1,25 @@
+﻿{
+  OrderId: Guid_1,
+  CustomerName: Amr,
+  CustomerEmail: amr@yahoo.com,
+  Items: [
+    {
+      ProductId: Guid_2,
+      ProductName: Laptop,
+      UnitPrice: 1200.0,
+      Quantity: 1,
+      LineTotal: 1200.0
+    },
+    {
+      ProductId: Guid_3,
+      ProductName: Mouse,
+      UnitPrice: 200.0,
+      Quantity: 2,
+      LineTotal: 400.0
+    }
+  ],
+  Subtotal: 1600.0,
+  Discount: 100.0,
+  Total: 1500.0,
+  CreatedAt: DateTimeOffset_1
+}
